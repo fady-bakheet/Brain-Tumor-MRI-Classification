@@ -101,7 +101,7 @@ This project was a collaborative effort divided into specialized domains:
 | **Gerges Marzouk** | **Image Preprocessing:** Dataset cleaning & enhancement | [@gerges-marzouk](https://github.com/gerges-marzouk) |
 | **Abdullah Yasser** | **Model & Training:** Architecture selection (EfficientNet) | [@Abdo727](https://github.com/Abdo727) |
 | **Mazen Omar** | **Post-Processing:** Result refinement & visualization | [@Mazen Omar](https://github.com/Mazen04om) |
-| **Hussein Ebrahim** | **Results & Analysis:** Evaluation metrics & testing | [@Username5](https://github.com/Username5) |
+| **Hussein Ebrahim** | **Results & Analysis:** Evaluation metrics & testing | [@Hussien2002](https://github.com/Hussien2002) |
 
 ---
 
