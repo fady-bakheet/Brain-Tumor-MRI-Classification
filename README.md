@@ -87,3 +87,36 @@ This project explores how different image enhancement techniques affect the clas
 | **Histogram Equalization** | EfficientNetB5 | **0.97** | Best overall contrast and accuracy. |
 | **brain_tumor_classification-unsharpen_mask-multi** | EfficientNetB5 | 0.94 | Improved edge detection but slightly lower recall. |
 | **No Preprocessing** | EfficientNetB5 | 0.94 | Strong baseline, but struggles with low-contrast scans. |
+
+
+
+---
+## 👥 Team Members
+
+This project was a collaborative effort divided into specialized domains:
+
+| Name | Domain & Responsibility | GitHub |
+| :--- | :--- | :--- |
+| **Fady_bakheet** | **Image Preprocessing:** Technique selection & optimization | [@fady-bakheet](https://github.com/fady-bakheet) |
+| **Gerges Marzouk** | **Image Preprocessing:** Dataset cleaning & enhancement | [@gerges-marzouk](https://github.com/gerges-marzouk) |
+| **Abdullah Yasser** | **Model & Training:** Architecture selection (EfficientNet) | [@Abdo727](https://github.com/Abdo727) |
+| **Mazen Omar** | **Post-Processing:** Result refinement & visualization | [@Mazen Omar](https://github.com/Mazen04om) |
+| **Hussein Ebrahim** | **Results & Analysis:** Evaluation metrics & testing | [@Username5](https://github.com/Username5) |
+
+---
+
+## 🛠️ Project Pipeline
+The project follows a rigorous end-to-end pipeline:
+1. **Preprocessing:** Grayscale conversion, Histogram Equalization, and Unsharp Masking.
+2. **Modeling:** Transfer Learning using EfficientNet (B0, B3, B5).
+3. **Training:** Fine-tuning with Adam optimizer and dynamic learning rates.
+4. **Analysis:** Multi-class classification reports and confusion matrix generation.
+
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/fady-bakheet/repository-name/issues).
+
+## ⭐️ Show your support
+Give a ⭐️ if this project helped you!
