@@ -69,7 +69,7 @@ This project explores how different image enhancement techniques affect the clas
 * **Description:** This is the primary notebook of the project. It applies Histogram Equalization to MRI scans to improve global contrast. This helps the models (EfficientNetB0, B3, B5) better identify tumor boundaries in low-contrast images.
 * **Performance:** Achieved a **97% Weighted Average Accuracy** with EfficientNetB5.
 
-### 2. [Unsharp Masking Experiment](./notebooks/brain_tumor_classification-unsharpen_mask-multi.ipynb)
+### 2. [brain_tumor_classification-unsharpen_mask-multi](./notebooks/brain_tumor_classification-unsharpen_mask-multi.ipynb)
 * **Preprocessing:** **Unsharp Masking**
 * **Description:** This notebook uses an Unsharp Mask filter to sharpen the edges of the MRI scans. The goal was to test if enhancing fine structural details and edges would assist the Convolutional Neural Networks in feature extraction.
 * **Performance:** High precision across most classes, particularly effective for identifying structural boundaries in complex tumor types.
@@ -85,5 +85,5 @@ This project explores how different image enhancement techniques affect the clas
 | Technique | Top Model | Weighted F1-Score | Key Observation |
 | :--- | :--- | :--- | :--- |
 | **Histogram Equalization** | EfficientNetB5 | **0.97** | Best overall contrast and accuracy. |
-| **Unsharp Masking** | EfficientNetB5 | 0.94 | Improved edge detection but slightly lower recall. |
+| **brain_tumor_classification-unsharpen_mask-multi** | EfficientNetB5 | 0.94 | Improved edge detection but slightly lower recall. |
 | **No Preprocessing** | EfficientNetB5 | 0.94 | Strong baseline, but struggles with low-contrast scans. |
