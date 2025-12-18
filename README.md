@@ -59,3 +59,31 @@ You can find the following plots within the `notebooks/` directory:
    git clone [https://github.com/your-username/Brain-Tumor-Classification.git](https://github.com/your-username/Brain-Tumor-Classification.git)
 
 
+
+## 📓 Notebooks & Experimental Results
+
+This project explores how different image enhancement techniques affect the classification of brain tumors. We evaluated three distinct approaches:
+
+### 1. [Multi-Class Classification & Multi-Model Comparison](./notebooks/multi_class_classification_and_multi_model_comparison.ipynb)
+* **Preprocessing:** **Histogram Equalization**
+* **Description:** This is the primary notebook of the project. It applies Histogram Equalization to MRI scans to improve global contrast. This helps the models (EfficientNetB0, B3, B5) better identify tumor boundaries in low-contrast images.
+* **Performance:** Achieved a **97% Weighted Average Accuracy** with EfficientNetB5.
+
+### 2. [Unsharp Masking Experiment](./notebooks/brain_tumor_classification-unsharpen_mask-multi.ipynb)
+* **Preprocessing:** **Unsharp Masking**
+* **Description:** This notebook uses an Unsharp Mask filter to sharpen the edges of the MRI scans. The goal was to test if enhancing fine structural details and edges would assist the Convolutional Neural Networks in feature extraction.
+* **Performance:** High precision across most classes, particularly effective for identifying structural boundaries in complex tumor types.
+
+### 3. [Baseline Model (No Preprocessing)](./notebooks/Brain%20Tumor%20MRI%20Classification_(without%20histogram%20equalization).ipynb)
+* **Preprocessing:** **None (Baseline)**
+* **Description:** This notebook serves as the control group. It uses standard MRI images without any advanced enhancement (No Histogram Equalization or Sharpening). 
+* **Purpose:** To establish a baseline performance metric to measure the actual "gain" provided by image processing techniques.
+
+---
+
+## 📊 Summary of Findings
+| Technique | Top Model | Weighted F1-Score | Key Observation |
+| :--- | :--- | :--- | :--- |
+| **Histogram Equalization** | EfficientNetB5 | **0.97** | Best overall contrast and accuracy. |
+| **Unsharp Masking** | EfficientNetB5 | 0.94 | Improved edge detection but slightly lower recall. |
+| **No Preprocessing** | EfficientNetB5 | 0.94 | Strong baseline, but struggles with low-contrast scans. |
