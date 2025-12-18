@@ -92,7 +92,7 @@ This project explores how different image enhancement techniques affect the clas
 ## 📚 References & Research Papers
 This project was developed based on methodologies and insights from the following research papers:
 
-1.  **[Automated multi-class MRI brain tumor classification]** - [Link to Paper 1]((https://www.nature.com/articles/s41598-025-92776-1#Sec9))
+1.  **[Automated multi-class MRI brain tumor classification]** - [Link to Paper 1](https://www.nature.com/articles/s41598-025-92776-1#Sec9)
 2.  **[Brain Tumor Detection and Prediction in MRI Images]** - [Link to Paper 2](https://www.mdpi.com/2075-1729/15/3/327)
 
 ---
