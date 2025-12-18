@@ -97,13 +97,13 @@ This project was a collaborative effort divided into specialized domains:
 
 | Name | Domain & Responsibility | GitHub |
 | :--- | :--- | :--- |
-| **Fady_bakheet** | **Image Preprocessing:** Technique selection & optimization | [@fady-bakheet](https://github.com/fady-bakheet) |
+| **Fady_Bakheet** | **Image Preprocessing:** Technique selection & optimization | [@fady-bakheet](https://github.com/fady-bakheet) |
 | **Gerges Marzouk** | **Image Preprocessing:** Dataset cleaning & enhancement | [@gerges-marzouk](https://github.com/gerges-marzouk) |
 | **Abdullah Yasser** | **Model & Training:** Architecture selection (EfficientNet) | [@Abdo727](https://github.com/Abdo727) |
 | **Mazen Omar** | **Post-Processing:** Result refinement & visualization | [@Mazen Omar](https://github.com/Mazen04om) |
 | **Hussein Ebrahim** | **Results & Analysis:** Evaluation metrics & testing | [@Hussien2002](https://github.com/Hussien2002) |
 
-## under supervision of:- Eng.Haidy
+# under supervision of:- Eng.Haidy
 ---
 
 ## 🛠️ Project Pipeline
