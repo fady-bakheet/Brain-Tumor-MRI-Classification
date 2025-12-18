@@ -1,4 +1,4 @@
-# Brain Tumor MRI Classification using Deep Learning
+# Brain Tumor MRI Classification using Deep Learning (multi_model_comparison)
 
 This repository features a comprehensive deep learning project for the multi-class classification of brain tumor MRI images. By utilizing **Transfer Learning** with several architectures from the **EfficientNet** family, the system achieves state-of-the-art precision in identifying 44 different tumor types.
 
